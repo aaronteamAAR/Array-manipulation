@@ -8,3 +8,15 @@ const numbers = [1, 30, 4, 21, 100000];
 numbers.sort();
 console.log(numbers);
 // expected output: Array [1, 100000, 21, 30, 4]
+
+// Functionless
+sort()
+
+// Arrow function
+sort((firstEl, secondEl) => { ... } )
+
+// Compare function
+sort(compareFn)
+
+// Inline compare function
+sort(function compareFn(firstEl, secondEl) { ... })
